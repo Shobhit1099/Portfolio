@@ -1,0 +1,401 @@
+
+html, body {
+    max-width: 100%;
+    overflow-x:hidden;
+	background-color:#e6d3d3;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+footer{
+	max-width: 100%;
+	min-height: 100px;
+	background-color: white;
+}
+
+a{
+	color:black;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+	max-height: 398px;
+    box-shadow: 0px 15px 10px -15px rgba(10, 10, 10, 0.5);
+}
+
+footer .btn-social-icon{
+	padding: 5px;
+}
+
+input[type=text], input[type=email], #message{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #5E5E5E;
+    border-radius: 0;
+}
+
+input[type=text]:hover, input[type=email]:hover, #message:hover{
+    border-bottom: 3px solid #0275d8;
+}
+
+.container{
+	padding-left: 230px;
+	padding-right: 230px;
+}
+
+.navbar{
+	max-width: 100%;
+	min-height: 120px;
+	background-color: white;
+}
+
+.row{
+	margin-left: 0;
+}
+
+.navbar-brand{
+	display: inline-flex;
+	font-size: 1.33vw;
+}
+
+.navbar-brand p{
+	margin-top: 3.5%;
+	font-size: 17px;
+}
+
+.Foot2{
+	margin-top: 2.5%;	
+	text-align: center;
+}
+
+.fa{
+	color: black;
+}
+
+.New1{
+	font-size: 14px;
+}
+
+.socialIcons{
+	margin-top: 8px;
+	color:black;
+}
+
+.mysite{
+	display: flex;
+	right: 0px;
+}
+
+.CompEnginSm{
+	padding: 0px;
+}
+
+.col-1, .col-11, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-12{
+	padding-left: 0px;
+}
+
+.col-11, .col-1{
+	padding-right: 0px;
+}
+
+.col-1{
+	text-align: right;
+}
+
+.col-md-5, .col-xl-5, .col-lg-5	{
+	padding: 0px;
+}
+
+.Foot1{
+	margin-top: 2.5%;
+	padding-left: 15px;
+}
+
+.col-visible-custom-menu{
+	display: none;
+}
+
+.col-visible-custom{
+	display: none;
+}
+
+.btn-primary{
+	border-radius: 20px 20px 20px 20px;
+}
+
+.btn-primary:hover{
+	background-color: white;
+	color:black;
+}
+
+.overlay {
+	height: 0%;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: rgba(230, 211, 211, 0.97);
+	overflow-y: hidden;
+	transition: 0.5s;
+	font-weight: 700;
+}
+
+.overlay-content {
+	position: relative;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.overlay a {
+	padding: 8px;
+	text-decoration: none;
+	font-size: 36px;
+	color: black;
+	display: block;
+	transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+	color: blue;
+}
+
+.overlay .closebtn {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 60px;
+}
+
+.card{
+	border-radius: 0;
+	background-color: white;
+	min-height: 400px;
+	width: 100%;
+	box-shadow: -5px 5px 15px 3px rgba(0, 0, 0, 0.1);
+	margin-bottom: 50px;
+	border-right: 0px;
+	font-size: 17px;
+}
+
+.card-body{
+	margin:30px 50px 110px 50px; 
+}
+
+.lastname{
+	padding-right: 0px;
+}
+
+.block{
+	margin-bottom: 30px;
+}
+
+.submitButton{
+	margin-top: 15px;
+}
+
+#Navbar{
+	right: 40px;
+}
+
+#CompEngin{
+	margin-top: 4px;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+#MyName{
+	font-size: 28px;
+	font-weight: 700;
+}
+
+#Mark2{
+	margin-top: 2px;
+	height:20px;
+	width: 20px;
+	background-color: #0275d8;
+}
+
+#Mark1{
+	margin-top: 2px;
+	height:18px;
+	width: 18px;
+	background-color: #0275d8;
+}
+
+#myGmail{
+	word-wrap: break-word;
+	font-size: 14px;
+}
+
+#LetsTalk{
+	margin-top: 225px;
+	margin-bottom: 70px;
+}
+
+#LetsTalkName{
+	margin-left: 5px;
+	text-align: center;
+	font-weight: 700;	
+	font-size: 38px;
+}
+
+@media (max-width: 1199px){
+	.container{
+		padding-left: 110px;
+		padding-right: 110px;
+	}
+}
+
+@media (max-width: 991px){
+	.container{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	#Mark1{
+		margin-top: 0px;
+	}
+	#Para{
+		padding: 0 30px 0 30px;		
+	}
+}
+
+@media (min-width: 900px) {
+	.navbar-expand-custom {
+		-ms-flex-flow: row nowrap;
+		flex-flow: row nowrap;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+	}
+	.navbar-expand-custom .navbar-nav {
+		-ms-flex-direction: row;
+		flex-direction: row;
+	}
+	.navbar-expand-custom .navbar-nav .dropdown-menu {
+		position: absolute;
+	}
+	.navbar-expand-custom .navbar-nav .nav-link {
+		padding-right: 0.5rem;
+		padding-left: 0.5rem;
+	}
+	.navbar-expand-custom > .container,
+	.navbar-expand-custom > .container-fluid, .navbar-expand-custom > .container-sm, .navbar-expand-custom > .container-custom, .navbar-expand-custom > .container-lg, .navbar-expand-custom > .container-xl {
+		-ms-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+	}
+	.navbar-expand-custom .navbar-collapse {
+		display: -ms-flexbox !important;
+		display: flex !important;
+		-ms-flex-preferred-size: auto;
+		flex-basis: auto;
+	}
+	.navbar-expand-custom .navbar-toggler {
+		display: none;
+	}
+	.col-visible-custom{
+		display: block;
+	}
+	.col-custom-md-6 {
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+		padding-right: 0px;
+	}
+}
+
+@media (max-width: 899px){
+	.col-visible-custom-menu{
+		display: block;
+	}
+}
+
+@media screen and (max-height: 450px) {
+	.overlay {
+		overflow-y: auto;
+	}
+	.overlay a {
+		font-size: 20px
+	}
+	.overlay .closebtn{
+		font-size: 40px;
+		top: 15px;
+		right: 35px;
+	}
+}
+
+@media (min-width:768px){
+	.offset-md-1{
+		margin-left: 15px;
+	}
+}
+
+@media (max-width: 767px){
+	.container{
+		padding-right: 50px;
+		padding-left: 40px;
+	}
+}
+
+@media (max-width: 575px){
+	#MyName{
+		font-size: 6.5vw;
+	}
+	#CompEngin{
+		font-size: 4vw;
+	}
+	.Foot2, .footSocialIcons{
+		text-align: left;
+	}
+	#Mark1{
+		margin-top: 2px;
+		height: 16px;
+		width: 16px;
+	}
+	.container{
+		padding-right: 2px;
+		padding-left: 15px;
+	}
+	#LetsTalk{
+		margin-top: 165px;
+		margin-bottom: 45px;
+	}
+	#LetsTalkName{
+		margin-left: 5px;
+		text-align: center;
+		font-weight: 700;	
+		font-size: 33px;
+	}
+	.card{
+		margin-bottom: 30px;
+	}
+	.Foot1{
+		margin-top: 2.5%;
+		padding-left: 0px;
+	}
+	.card-body{
+		margin-left: 0px;
+		padding-left: 15px;
+		padding-right: 0px;
+		margin-right: 5px;
+		font-size: 19px;
+	}
+	.lastname{
+		padding-right: 15px;
+	}
+	.submitButton{
+		margin: auto;
+	}
+}
+
+@media (max-width: 319px){
+	#myGmail{
+		font-size: 4.3vw;
+	}
+	#Mark1{
+		margin-top: 0px;
+		height: 14px;
+		width: 14px;
+	}
+}

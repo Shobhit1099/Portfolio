@@ -1,0 +1,420 @@
+html, body {
+    max-width: 100%;
+    overflow:visible;
+	background-color:#e6d3d3;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+footer{
+	max-width: 100%;
+	min-height: 100px;
+	background-color: white;
+}
+
+a{
+	color:black;
+}
+
+footer .btn-social-icon{
+	padding: 5px;
+}
+
+.Skillset{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.col-lg-5, .col-md-5{
+	padding: 0px;
+}
+
+.container{
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.navbar{
+	max-width: 100%;
+	min-height: 120px;
+	background-color: white;
+}
+
+.row{
+	margin-left: 0;
+}
+
+.navbar-brand{
+	display: inline-flex;
+	font-size: 1.33vw;
+}
+
+.navbar-brand p{
+	margin-top: 3.5%;
+	font-size: 17px;
+}
+
+.Foot1{
+	margin-top: 2.5%;
+	padding-left: 15px;
+}
+
+.Foot2{
+	margin-top: 2.5%;	
+	text-align: center;
+}
+
+.fa{
+	color: black;
+}
+
+.New1{
+	font-size: 14px;
+}
+
+.socialIcons{
+	margin-top: 8px;
+	color:black;
+}
+
+.mysite{
+	display: flex;
+	right: 0px;
+}
+
+.CompEnginSm{
+	padding: 0px;
+}
+
+.col-1, .col-11, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-12{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.col-1{
+	text-align: right;
+}
+
+.col-md-6{
+	padding: 0px;
+}
+
+.col-visible-custom-menu{
+	display: none;
+}
+
+.col-visible-custom{
+	display: none;
+}
+
+.btn-primary{
+	border-radius: 20px 20px 20px 20px;
+}
+
+.btn-primary:hover{
+	background-color: white;
+	color:black;
+}
+
+.overlay {
+	height: 0%;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: rgba(230, 211, 211, 0.97);
+	overflow-y: hidden;
+	transition: 0.5s;
+	font-weight: 700;
+}
+
+.overlay-content {
+	position: relative;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.overlay a {
+	padding: 8px;
+	text-decoration: none;
+	font-size: 36px;
+	color: black;
+	display: block;
+	transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+	color: blue;
+}
+
+.overlay .closebtn {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 60px;
+}
+
+.Head{
+	font-size: 27px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+.New{
+	margin-top: 55px;
+	margin-left: 25px;
+}
+
+.card{
+	border-radius: 0;
+	background-color: white;
+	min-height: 370px;
+	width: 100%;
+	box-shadow: -10px 10px 9px 2px rgba(0, 0, 0, 0.1);
+	margin-bottom: 40px;
+}
+
+.CardLast{
+	min-height: 500px;
+}
+
+.SkillsetBox{
+	margin-bottom: 25px;
+}
+
+#Skillset{
+	margin-left: 10px;
+	font-size: 14px;
+}
+
+#card-left{
+	margin-top: 55px;
+	margin-left: 25px;
+	font-size: 13px;
+}
+
+#card-right{
+	margin-top: 58px;	
+}
+
+#year{
+	font-size: 21px;
+	font-weight: 700;
+	color: #0275d8;
+}
+
+#title{
+	margin-top: 105px;
+	margin-bottom: 50px;
+}
+
+#Navbar{
+	right: 40px;
+}
+
+#CompEngin{
+	margin-top: 4px;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+#MyName{
+	font-size: 28px;
+	font-weight: 700;
+}
+
+#Mark3{
+	height:15px;
+	width:15px;
+	background-color: #0275d8;
+}
+
+#Mark2{
+	margin-top: 2px;
+	height:20px;
+	width: 20px;
+	background-color: #0275d8;
+}
+
+#Mark1{
+	margin-top: 2px;
+	height:18px;
+	width: 18px;
+	background-color: #0275d8;
+}
+
+#myGmail{
+	word-wrap: break-word;
+	font-size: 14px;
+}
+
+#Resume{
+	margin-top: 225px;
+}
+
+#ResumeName{
+	margin-left: 5px;
+	text-align: center;
+	font-weight: 700;	
+	font-size: 38px;
+}
+
+@media (max-width: 992px){
+	.container{
+		padding-left: 90px;
+		padding-right: 90px;
+	}
+	#Mark1{
+		margin-top: 0px;
+	}
+}
+
+@media (min-width: 900px) {
+	.navbar-expand-custom {
+		-ms-flex-flow: row nowrap;
+		flex-flow: row nowrap;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+	}
+	.navbar-expand-custom .navbar-nav {
+		-ms-flex-direction: row;
+		flex-direction: row;
+	}
+	.navbar-expand-custom .navbar-nav .dropdown-menu {
+		position: absolute;
+	}
+	.navbar-expand-custom .navbar-nav .nav-link {
+		padding-right: 0.5rem;
+		padding-left: 0.5rem;
+	}
+	.navbar-expand-custom > .container,
+	.navbar-expand-custom > .container-fluid, .navbar-expand-custom > .container-sm, .navbar-expand-custom > .container-custom, .navbar-expand-custom > .container-lg, .navbar-expand-custom > .container-xl {
+		-ms-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+	}
+	.navbar-expand-custom .navbar-collapse {
+		display: -ms-flexbox !important;
+		display: flex !important;
+		-ms-flex-preferred-size: auto;
+		flex-basis: auto;
+	}
+	.navbar-expand-custom .navbar-toggler {
+		display: none;
+	}
+	.col-visible-custom{
+		display: block;
+	}
+	.col-custom-md-6 {
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+		padding-right: 0px;
+	}
+}
+
+@media (max-width: 899px){
+	.col-visible-custom-menu{
+		display: block;
+	}
+}
+
+@media screen and (max-height: 450px) {
+	.overlay {
+		overflow-y: auto;
+	}
+	.overlay a {
+		font-size: 20px
+	}
+	.overlay .closebtn{
+		font-size: 40px;
+		top: 15px;
+		right: 35px;
+	}
+}
+
+@media (min-width:768px){
+	.offset-md-1{
+		margin-left: 15px;
+	}
+}
+
+@media (max-width: 767px){
+	.container{
+		padding-right: 50px;
+		padding-left: 40px;
+	}
+	#card-right{
+		margin-top: 20px;
+	}
+	#card-left{
+		margin-top: 15px;
+		margin-left: 0px;
+		font-size: 12px;
+	}
+	#title{
+		margin-top: 65px;
+		margin-bottom: 25px;
+	}
+}
+
+@media (max-width: 575px){
+	#MyName{
+		font-size: 6.5vw;
+	}
+	#CompEngin{
+		font-size: 4vw;
+	}
+	.Foot2, .footSocialIcons{
+		text-align: left;
+	}
+	#Mark1{
+		margin-top: 2px;
+		height: 16px;
+		width: 16px;
+	}
+	.container{
+		padding-right: 2px;
+		padding-left: 15px;
+	}
+	#title{
+		margin-top: 35px;
+		margin-bottom: 10px;
+	}
+	#Resume{
+		margin-top: 165px;
+	}
+	#ResumeName{
+		margin-left: 5px;
+		text-align: center;
+		font-weight: 700;	
+		font-size: 33px;
+	}
+	.Head{
+		font-size: 23px;
+		font-weight: 700;
+		margin-bottom: 30px;
+	}
+	.New{
+		margin-top: 20px;
+		margin-left: 10px;
+	}
+	.row{
+		margin-right: 0px;
+	}
+	#Details{
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 319px){
+	#myGmail{
+		font-size: 4.3vw;
+	}
+	#Mark1{
+		margin-top: 0px;
+		height: 14px;
+		width: 14px;
+	}
+}

@@ -1,0 +1,108 @@
+<%- include("partials/header"); -%>
+	    <link rel="stylesheet" href="/css/styles4.css">
+
+	  	<title>My Portfolio</title>
+	</head>
+
+	<body>
+		<header>
+			<nav class="navbar fixed-top navbar-expand-custom navbar-fixed-top py-4">
+		        <div class="container-fluid">
+		        	<div class="col-11 col-custom-md-6">
+		        		<div class="navbar-brand d-none d-sm-none d-md-flex" href="/about">
+		        			<div id="Mark1" class="align-self-center"></div>
+		        			<div id="MyName" class="align-self-center">&nbsp;Shobhit Srivastava</div>
+		        			<div id="CompEngin" class="align-self-center">&nbsp;/&nbsp;COMPUTER ENGINEER</div>
+		        		</div>
+		        		<div class="navbar-brand d-block d-flex d-md-none row" href="/about">
+		        			<div id="Mark1" class="align-self-center"></div>
+		        			<div id="MyName" class="align-self-center">&nbsp;&nbsp;Shobhit Srivastava</div>
+		        			<div id="CompEngin" class="align-self-center col-sm-12 CompEnginSm">COMPUTER ENGINEER</div>
+		        		</div>
+		        	</div>
+		            <div id="Navbar" class="col-visible-custom">
+		            	<ul class="navbar-nav ml-auto text-center">
+		                    <li class="nav-item">
+		                        <a class="nav-link" href="/about">ABOUT ME</a>
+		                    </li>
+		                    <li class="nav-item">
+		                        <a class="nav-link" href="/resume">RESUME</a>
+		                    </li>
+		                    <li class="nav-item">
+		                        <a class="nav-link" href="/projects">PROJECTS</a>
+		                    </li> 
+		                    <li class="nav-item active">
+		                        <a class="nav-link" href="/contact">CONTACT</a>
+		                    </li> 
+		                </ul>
+			        </div>
+			        <div class="col-visible-custom-menu col-1 col-custom-md-6">
+		                <span onclick="openNav()">   
+						    <i class="fa fa-bars" style="color:black; font-size:28px;"></i>
+						</span>
+			            <div id="myNav" class="overlay">
+	  						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				            <div class="overlay-content">
+		                        <a href="/about">ABOUT ME</a>
+		                        <a href="/resume">RESUME</a>
+		                        <a href="/projects">PROJECTS</a>
+		                        <a href="/contact" class="active">CONTACT</a>
+				            </div>
+				        </div>
+		        	</div>
+		        </div>
+	   		</nav>
+   		</header>
+
+   		<div class="container">
+	   		<div id="LetsTalk">
+	   			<div class="row justify-content-center">
+		   			<div id="Mark2" class="align-self-center"></div>
+		   			<div id="LetsTalkName">Lets talk</div>
+	   			</div>
+	   		</div>
+	   	</div>
+
+   		<div class="container">
+   			<div class="card">
+   				<div class="card-body">
+	   				<form class="row" action="/contact" method="post">
+	                    <div class="col-md-6 col-12 row block">
+	                        <label for="firstname" class="col-12 col-form-label">First Name <i style="color:blue;">*</i></label>
+	                        <div class="col-12">
+	                            <input type="text" class="form-control" id="firstname" name="firstname" required>
+	                        </div>
+	                    </div>
+	                    <div class="col-md-6 col-12 row lastname block">
+	                        <label for="lastname" class="col-12 col-form-label">Last Name <i style="color:blue;">*</i></label>
+	                        <div class="col-12">
+	                            <input type="text" class="form-control" id="lastname" name="lastname" required>
+	                        </div>
+	                    </div>
+	                    <div class="col-12 row block">
+	                        <label for="emailid" class="col-12 col-form-label">Email <i style="color:blue;">*</i></label>
+	                        <div class="col-12">
+	                            <input type="email" class="form-control" id="emailid" name="emailid" required>
+	                        </div>
+	                    </div>
+	                    <div class="col-12 row block">
+	                        <label for="subject" class="col-12 col-form-label">Subject</label>
+	                        <div class="col-12">
+	                            <input type="text" class="form-control" id="subject" name="subject">
+	                        </div>
+	                    </div>
+	                    <div class="col-12 row block">
+	                        <label for="feedback" class="col-12 col-form-label">Message</label>
+	                        <div class="col-12">
+	                            <textarea class="form-control" id="message" name="message" rows="4">
+	                            </textarea>
+	                        </div>
+	                    </div>
+	                    <div class="col-4 col-sm-3 submitButton">
+	                    	<button type="submit" class="btn btn-primary col-md-9"><strong>SEND</strong></button>
+	                    </div>
+	                </form>
+   				</div>
+	   		</div>
+		</div>
+	     <%- include("partials/footer"); -%>
